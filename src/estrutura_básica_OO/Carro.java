@@ -9,34 +9,34 @@ public class Carro {
     String modelo;
     int capacidadeDoTanque;
 
-    Carro(){
+    Carro() {
 
     }
 
-    Carro(String cor, String modelo, int capacidadeDoTanque){
+    Carro(String cor, String modelo, int capacidadeDoTanque) {
         this.cor = cor;
         this.modelo = modelo;
         this.capacidadeDoTanque = capacidadeDoTanque;
 
     }
 
-    void setCor(String cor){
+    void setCor(String cor) {
         this.cor = cor;
     }
 
-    String getCor (){
+    String getCor() {
         return cor;
     }
 
-    void setModelo(String modelo){
+    void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    String getModelo(){
+    String getModelo() {
         return modelo;
     }
 
-    void setCapacidadeDoTanque(int capacidadeDoTanque){
+    void setCapacidadeDoTanque(int capacidadeDoTanque) {
         this.capacidadeDoTanque = capacidadeDoTanque;
     }
 
@@ -44,7 +44,7 @@ public class Carro {
         return capacidadeDoTanque;
     }
 
-    double totalValorTanque(double valorCombustivel){
+    double totalValorTanque(double valorCombustivel) {
         return capacidadeDoTanque * valorCombustivel;
     }
 }
